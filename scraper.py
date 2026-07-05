@@ -157,7 +157,7 @@ print("\n--- Preview Data ---")
 print(df_final.head())
 
 # 1. Install library pendukung agar koneksi lancar
-!pip install "pymongo[srv]" dnspython pandas -q
+# !pip install "pymongo[srv]" dnspython pandas -q
 
 import pandas as pd
 from pymongo import MongoClient
